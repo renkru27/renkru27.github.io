@@ -1,0 +1,19 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+a{
+	padding: 15px;
+	margin: 3px;
+	font-size:125%;
+	background-color:lightgray;
+	color:navy;
+}
+
+a:hover{
+	font-size: 150%;
+	background-color:darkgray;
+	color: 000;
+}
+body{
+	text-align: center;
+	background-color: lightsteelblue;
+}
