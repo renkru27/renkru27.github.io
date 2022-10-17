@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question1</title>
+	<link href="css/koala.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+	<script>
+ function showAnswer() {
+	   $("#owl_no_art").hide();
+     $("#owl_automation").show();
+	   $("#answer").html("<h2>Automation is essential to Drip Marketing!</h2>");
+	}
+
+function hideAnswer() {
+	   $("#owl_no_art").show();
+	   $("#owl_automation").hide();
+	   $("#answer").html("");  
+	}
+</script>
+<body>	 
+	<h1> What is Drip Marketing? </h1>
+	<a href="index.html">Definition</a>
+	<a href="question1.html">Question 1</a>
+	<a href="question2.html">Question 2</a>
+	<br><br>
+	<h2> Question 1 - Discover the answer</h2>
+	<br>
+	
+<div id="wrapper">
+<h1>What is essential to the process?
+  </h1>
+ <h3 id="hint">Hint: Hover over the image below to find out!</h3>
+<img onmouseenter="showAnswer()"
+id="owl_no_art" src="img/owl_no_art.png"/>
+ 
+<img src="img/owl_automation.png" width="590" height="350"  id="owl_automation" img onmouseleave="hideAnswer()"/>
+ <div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+ 
+</div> <!-- closing  “wrapper” -->
+	
+
+
+
+</body>
+</html>

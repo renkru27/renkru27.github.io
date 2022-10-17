@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>question2</title>
+	<link href="css/koala.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+ <script>
+      function rightAnswer(){
+         $("#feedback").html("<h2 style='color:green'> Correct! Automation is the key to Drip Marketing.</h2>");
+         $("#owl_glasses").show();
+      }
+	    function wrongAnswer1(){
+      $("#feedback").html("<h2 style='color:red'> Scheduling plays a supportive role in Drip Marketing. </h2>");
+      $("#owl_glasses").hide();
+   }
+   function wrongAnswer2(){
+      $("#feedback").html("<h2 style='color:red'> This is not essential to Drip Marketing. </h2>");
+      $("#owl_glasses").hide();
+   }
+
+   </script>
+
+<body>
+		<h1> What is Drip Marketing? </h1>
+	<a href="index.html">Definition</a>
+	<a href="question1.html">Question 1</a>
+	<a href="question2.html">Question 2</a>
+	<br><br>
+	<h2> Question 2 - Select one</h2>
+	 <div id="wrapper">
+<h1>What is the most important feature of Drip Marketing?</h1>
+<h3>Click on one of the following choices</h3>
+
+<h2 onclick="wrongAnswer1()"class="choices"> Scheduling </h2>
+<h2 onclick="wrongAnswer2()" class="choices"> Personalization </h2>
+<h2 onclick="rightAnswer()"class="choices"> Automation </h2>
+<h2 onclick="wrongAnswer2()"class="choices"> Segmentation </h2>
+
+<div id="feedback"></div>
+<img id="owl_glasses" src="img/owl_glasses.png" />
+</div>
+
+</body>
+</html>

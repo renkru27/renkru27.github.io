@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrapper {
+width: 900px;
+margin: 0 auto;
+text-align: center;
+}
+#owl_automation {
+display: none; /* hides content */
+border: gray 5px solid;
+}
+ #owl_glasses {
+display: none; /* hides content */
+border: gray 5px solid;
+}
+.choices {
+cursor: pointer;
+}
+
+a{
+	padding: 15px;
+	margin: 3px;
+	font-size:125%;
+	background-color:lightgray;
+	color:navy;
+}
+
+a:hover{
+	font-size: 150%;
+	background-color:darkgray;
+	color: 000;
+}
+body{
+	text-align: center;
+	background-color: lightsteelblue;
+}
