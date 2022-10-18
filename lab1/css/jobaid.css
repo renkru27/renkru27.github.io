@@ -8,8 +8,9 @@ body {
 }
 	
 
-h1, h2, h3, h4, h5, h6 { 
-	text-align: left;     /* centers h1,h2,h3,h4,h5,and h6 content */
+h1 {text-align: center; /* centers h1}
+h2, h3, h4, h5, h6 { 
+	text-align: left;     /* centers h2,h3,h4,h5,and h6 content */
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
