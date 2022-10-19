@@ -31,6 +31,7 @@ a:hover{
 	color: 000;
 }
 body{
-	text-align: center;
-	background-color: lightsteelblue;
+	color: #003057;          /* text color for the entire page */
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif; text-align: center; image-align: right; background-color: lightsteelblue;
 }
